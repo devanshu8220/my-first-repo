@@ -1,0 +1,200 @@
+*{font-family: 'Cormorant Garamond', serif;
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+    text-transform: uppercase;
+}
+nav{margin: 20px;
+    margin-bottom: 10px;
+    padding: 20px;
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+background-color: #A7D8F8;
+
+}
+#innernav{display: flex;
+flex-direction: row;
+align-items: center;
+flex: 1;
+max-width: 80%;
+justify-content:space-between;
+
+}
+#innernav li a {
+    text-decoration: none;
+color: black;
+font-weight: 1000;
+}
+#space li img{
+    width: 24px;
+    height: 24px;
+}
+.welcome{
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+    color: #0897F4;
+}
+img{
+    margin: 10px;
+}
+
+
+@media screen and ( max-width:1500px) {
+    nav{
+        margin: 0;
+        padding: 5px;
+    }
+    #notification{
+        margin: 0;
+        padding: 0;
+        display:flex;
+        flex-direction: row;
+    background-color: red;
+    justify-content: left;
+    }
+    #role2{
+        padding: 20px;
+        margin: 20px;
+    }
+    
+         
+  .role img{margin: 0;
+            height: 114px;
+            width: 113px; 
+        padding-top: 25px;
+        
+        }
+        #role2 h1{
+            text-transform: uppercase;
+            text-align: center;
+             width: 310px;
+             height: 69px;
+        }
+        #role2{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .role3{
+            display: flex;
+            text-transform: uppercase;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 5px;
+        }
+        #role2 h2{text-align: center;
+            font-size: 50px;
+        }
+        .quote{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        
+        }
+        .quote h3{
+            font-family: 'Satisfy', cursive;
+            width: 1200px;
+            height: 100px;
+            text-align: center;
+            margin-top: 50px;
+            line-height: 2;
+            font-size: 40px;
+        }
+        .quote h5{font-size: 20px;
+            align-self: flex-end;
+        }
+}
+      
+
+   
+@media screen and (max-width: 376px){
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .responsive{
+        display: none;
+    }
+    nav{
+     
+        margin: 0px;
+        padding: 0px;
+    }
+    #notification{
+        background-color: white;
+    }
+    #innernav {
+    
+        margin: 0px;
+        padding: 0px;
+        margin-top: 4px;
+    }
+
+   
+    
+
+    .nav2{
+        flex: 0;
+        justify-content: center;
+        margin: 0px;
+        padding: 10px;
+    }
+    .role{
+        display: flex;
+        flex-direction: row;
+    }
+#role2 h1{
+    text-transform: uppercase;
+    text-align: center;
+     width: 310px;
+     height: 69px;
+     
+}
+.role img{margin: 0;
+    height: 114px;
+    width: 113px;
+}
+#role2{margin-left: -30px;
+    display: flex;
+    text-transform: uppercase;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+}
+
+
+
+#role2 h4{
+    color: #FD7209;
+    font-size: 12px;
+}
+#role2 h2{
+    display: none;
+}
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quote h3{
+    font-family: 'Satisfy', cursive;
+    width: 280px;
+    height: 74px;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 2;
+    font-size: 20px;
+}
+.quote h5{font-size: 12px;
+    align-self: flex-end;
+    margin-right: 5px;
+}
+
+}
